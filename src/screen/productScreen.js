@@ -1,7 +1,7 @@
 import data from '../data';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 /*
+import { Link } from 'react-router-dom';
 import {useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { detailsProduct } from '../actions/productActions';

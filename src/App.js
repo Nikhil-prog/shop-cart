@@ -17,7 +17,7 @@ function App() {
 	};
 	/******************************Main App******************************/
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<div className="grid-container">
 
 				<header className="header">
