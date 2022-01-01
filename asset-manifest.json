@@ -1,15 +1,15 @@
 {
-  "main.css": "/shop-cart/static/css/main.039412a6.chunk.css",
-  "main.js": "/shop-cart/static/js/main.0723e422.chunk.js",
-  "main.js.map": "/shop-cart/static/js/main.0723e422.chunk.js.map",
-  "static/js/1.ec6103b3.chunk.js": "/shop-cart/static/js/1.ec6103b3.chunk.js",
-  "static/js/1.ec6103b3.chunk.js.map": "/shop-cart/static/js/1.ec6103b3.chunk.js.map",
-  "static/js/2.140db54b.chunk.js": "/shop-cart/static/js/2.140db54b.chunk.js",
-  "static/js/2.140db54b.chunk.js.map": "/shop-cart/static/js/2.140db54b.chunk.js.map",
-  "runtime~main.js": "/shop-cart/static/js/runtime~main.53a177dd.js",
-  "runtime~main.js.map": "/shop-cart/static/js/runtime~main.53a177dd.js.map",
-  "static/css/main.039412a6.chunk.css.map": "/shop-cart/static/css/main.039412a6.chunk.css.map",
-  "index.html": "/shop-cart/index.html",
-  "precache-manifest.cef39614e7443bb37425871af35093c7.js": "/shop-cart/precache-manifest.cef39614e7443bb37425871af35093c7.js",
-  "service-worker.js": "/shop-cart/service-worker.js"
+  "main.css": "/app/static/css/main.039412a6.chunk.css",
+  "main.js": "/app/static/js/main.0b32982b.chunk.js",
+  "main.js.map": "/app/static/js/main.0b32982b.chunk.js.map",
+  "static/js/1.ec6103b3.chunk.js": "/app/static/js/1.ec6103b3.chunk.js",
+  "static/js/1.ec6103b3.chunk.js.map": "/app/static/js/1.ec6103b3.chunk.js.map",
+  "static/js/2.140db54b.chunk.js": "/app/static/js/2.140db54b.chunk.js",
+  "static/js/2.140db54b.chunk.js.map": "/app/static/js/2.140db54b.chunk.js.map",
+  "runtime~main.js": "/app/static/js/runtime~main.34dd88c2.js",
+  "runtime~main.js.map": "/app/static/js/runtime~main.34dd88c2.js.map",
+  "static/css/main.039412a6.chunk.css.map": "/app/static/css/main.039412a6.chunk.css.map",
+  "index.html": "/app/index.html",
+  "precache-manifest.ff2d896b9fa375a71f3bee9207f1c5e1.js": "/app/precache-manifest.ff2d896b9fa375a71f3bee9207f1c5e1.js",
+  "service-worker.js": "/app/service-worker.js"
 }
