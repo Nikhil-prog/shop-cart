@@ -25,10 +25,10 @@ function App() {
 						<button onClick={sideBarOpen}>
 							&#9776;
 						</button>
-						<Link to="/">Shop Cart</Link>
+						<Link to="/shop-cart/">Shop Cart</Link>
 					</div>
 					<div className="header-links">
-						<Link to="/cart/">Cart</Link>
+						<Link to="/shop-cart/cart/">Cart</Link>
 						<a href="signin.html">Sign in</a>
 					</div>
 				</header >
@@ -38,23 +38,23 @@ function App() {
 					<button className="sidebar-close-button" onClick={sideBarClose}>x</button>
 					<ul>
 						<li>
-							<Link to="/category/electronics">Electronics</Link>
+							<Link to="/shop-cart/category/electronics">Electronics</Link>
 						</li>
 						<li>
-							<Link to={"/category/furnitures"}>Furnitures</Link>
+							<Link to={"/shop-cart/category/furnitures"}>Furnitures</Link>
 						</li>
 						<li>
-							<Link to={"/category/kitchen_products"}> Kitchen Products</Link>
+							<Link to={"/shop-cart/category/kitchen_products"}> Kitchen Products</Link>
 						</li>
 					</ul>
 				</aside>
 
 				<main className="main">
 					<div className="content">
-						<Route path="/" exact={true} component={homeScreen} />
-						<Route path="/category/:categories?" component={homeScreen} />
-						<Route path="/product/:id" component={productScreen} />
-						<Route path="/cart/:id?" component={cartScreen} />
+						<Route path="/shop-cart" exact={true} component={homeScreen} />
+						<Route path="/shop-cart/category/:categories?" component={homeScreen} />
+						<Route path="/shop-cart/product/:id" component={productScreen} />
+						<Route path="/shop-cart/cart/:id?" component={cartScreen} />
 					</div>
 				</main>
 

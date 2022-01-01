@@ -25,7 +25,7 @@ function cartScreen(props) {
 
 	return <div className="cart">
 		<div>
-			<Link to="/" class="homeButton">Add More</Link>
+			<Link to="/shop-cart" class="homeButton">Add More</Link>
 		</div>
 		<div className='cart-list'>
 			<ul className='cart-list-container'>
@@ -44,7 +44,7 @@ function cartScreen(props) {
 
 								<div className='cart-name'>
 									<div>
-										<Link to={"/product/" + item.product}>
+										<Link to={"/shop-cart/product/" + item.product}>
 											{item.name}
 										</Link>
 
